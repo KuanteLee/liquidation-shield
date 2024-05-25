@@ -5,5 +5,8 @@ FROM python:3.11-slim
 WORKDIR /app
 COPY . /app
 
+# Install package
+RUN pip install -r requirements.txt
+
 # Entry point command
 CMD ["python", "main.py"]
