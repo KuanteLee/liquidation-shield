@@ -3,6 +3,9 @@ FROM python:3.11-slim
 
 # Copy the current directory into /app on the image
 WORKDIR /app
+
+ENV HOST 0.0.0.0
+
 COPY . /app
 
 # Install package
