@@ -22,3 +22,7 @@ Step 3: Deploy to Cloud Run
 
 GCP Cloud Run Deploy: https://www.practiceprobs.com/blog/2022/12/15/how-to-schedule-a-python-script-with-docker-and-google-cloud/#__tabbed_2_1
 -> Issue: https://www.googlecloudcommunity.com/gc/Infrastructure-Compute-Storage/Google-Cloud-Function-IP-Address-setting/m-p/495097
+-> Solution: https://dev.binance.vision/t/service-unavailable-from-a-restricted-location/13813
+
+requests.exceptions.ConnectionError
+-> https://blog.csdn.net/weixin_45520735/article/details/115260374

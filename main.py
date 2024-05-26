@@ -15,6 +15,9 @@ def health_check():
     return 'Service is up and running!'
 
 def start_liquidation_shield():
+    import os 
+    print(f"API_KEY: {os.getenv("BINANCE_API_KEY")}")
+    print(f"SECRET_KEY: {os.getenv("BINANCE_SECRET_KEY")}")
     sentinel = LiquidationShield()
     sentinel.start()
 
