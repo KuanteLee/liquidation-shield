@@ -4,5 +4,5 @@ pandas
 requests
 Flask
 certifi
-cryptograph
+cryptography
 pyOpenSSL
