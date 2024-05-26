@@ -1,10 +1,4 @@
-from straregy.binance_liquidation_shield import LiquidationShield
-
-# if __name__ == "__main__":
-#     sentinel = LiquidationShield()
-#     sentinel.start()
-
-# from strategy.binance_liquidation_shield import LiquidationShield
+from strategy.binance_liquidation_shield import LiquidationShield
 from flask import Flask
 import threading
 
@@ -15,9 +9,6 @@ def health_check():
     return 'Service is up and running!'
 
 def start_liquidation_shield():
-    import os 
-    print(f'API_KEY: {os.getenv("BINANCE_API_KEY")}')
-    print(f'SECRET_KEY: {os.getenv("BINANCE_SECRET_KEY")}')
     sentinel = LiquidationShield()
     sentinel.start()
 

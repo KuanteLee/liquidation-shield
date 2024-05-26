@@ -4,7 +4,10 @@
 
 - 降低 Docker 大小
 
-## Deploy
+## GCP Deploy
+
+(Fail: Binance 禁止美國 API Request, 目前 Cloud Run 全部是從美國總部發出 Request
+可能解法: 要額外設 GCP VCP, 但有額外費用, 且較不穩定, 待研究)
 
 Step 1: 從 GCP 編譯器 Clone 目前的 Code
 
