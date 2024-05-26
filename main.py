@@ -16,8 +16,8 @@ def health_check():
 
 def start_liquidation_shield():
     import os 
-    print(f"API_KEY: {os.getenv("BINANCE_API_KEY")}")
-    print(f"SECRET_KEY: {os.getenv("BINANCE_SECRET_KEY")}")
+    print(f'API_KEY: {os.getenv("BINANCE_API_KEY")}')
+    print(f'SECRET_KEY: {os.getenv("BINANCE_SECRET_KEY")}')
     sentinel = LiquidationShield()
     sentinel.start()
 

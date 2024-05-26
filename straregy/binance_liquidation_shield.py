@@ -302,7 +302,9 @@ class LiquidationShield:
         while True:
             try:
                 print("====================== START ======================")
+                from datetime import datetime
                 start_time = time.time()
+                print(f"開始時間: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
                 self._start_patrol()
                 print(f"執行時間： {time.time() - start_time:.3f} sec.")
                 print("======================= END =======================\n")
